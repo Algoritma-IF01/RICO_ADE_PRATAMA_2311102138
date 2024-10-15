@@ -1,8 +1,8 @@
 # <h1 align="center">LAPORAN PRAKTIKUM MODUL 3 : STRUKTUR KONTROL PERULANGAN DAN PERCABANGAN</h1>
-<p align="center">RICO ADE PRATAMA - 2311102138</p>
+## <p align="center">RICO ADE PRATAMA - 2311102138</p>
 
-## LATIHAN
-### 1. SoalLatihan1.go
+# LATIHAN
+## 1. SoalLatihan1.go
 
 ```go
 package main
@@ -41,12 +41,12 @@ func main() {
 
 
 ```
-## OUTPUT SCREENSHOT
+### OUTPUT SCREENSHOT
 ![OutputSoalLatihan1.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputSoalLatihan1.go.png)
 
 Kode di atas digunakan untuk memeriksa apakah pengguna dapat memasukkan urutan empat warna ("merah", "kuning", "hijau", "ungu") dengan benar dalam lima percobaan, dan menampilkan hasil "BERHASIL: true" jika semua percobaan benar atau "BERHASIL: false" jika ada kesalahan. Lebih jelasnya seperti pada output diatas.
 
-### 2. SoalLatihan2.go
+## 2. SoalLatihan2.go
 
 ```go
 package main
@@ -85,13 +85,13 @@ func main() {
 }
 
 ```
-## OUTPUT SCREENSHOT
+### OUTPUT SCREENSHOT
 ![OutputSoalLatihan2.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputSoalLatihan2.go.png)
 
 Kode di atas digunakan untuk menerima input nama bunga secara berulang, menggabungkannya menjadi satu string yang dipisahkan oleh tanda hubung (`-`), dan berhenti ketika pengguna mengetik "selesai". Setelah itu, program menampilkan pita yang berisi daftar bunga dan jumlah bunga yang dimasukkan. Lebih jelasnya seperti pada output diatas.
 
 # TUGAS
-### 1. Tugas1_Praktikum3.go
+## 1. Tugas1_Praktikum3.go
 
 ```go
 // TUGAS 1 : PRAKTIKUM 3
@@ -137,12 +137,12 @@ func main() {
 
 
 ```
-## OUTPUT SCREENSHOT
+### OUTPUT SCREENSHOT
 ![OutputTugas1_Praktikum3.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputTugas1_Praktikum3.go.png)
 
 Kode di atas digunakan untuk meminta input berat belanjaan di dua kantong (kiri dan kanan) secara berulang, kemudian menghitung selisih berat antara kedua kantong. Jika selisihnya 9 kg atau lebih, sepeda motor dianggap oleng. Program berhenti jika salah satu berat negatif atau total berat melebihi 150 kg, lalu menampilkan pesan "Proses selesai". Lebih jelasnya seperti pada output diatas.
 
-### 2. Tugas2_Praktikum3.go
+## 2. Tugas2_Praktikum3.go
 
 ```go
 // TUGAS 2 : PRAKTIKUM 3
@@ -200,12 +200,12 @@ func main() {
 
 
 ```
-## OUTPUT SCREENSHOT
+### OUTPUT SCREENSHOT
 ![OutputTugas2_Praktikum3.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputTugas2_Praktikum3.go.png)
 
 Kode di atas digunakan untuk menerima input bilangan bulat `K` dari pengguna sebanyak tiga kali, kemudian menghitung nilai pendekatan akar 2 menggunakan fungsi `f(k)` yang dijumlahkan dari `k = 0` hingga `k = K`. Hasil pendekatan akar 2 ditampilkan dengan 10 angka di belakang koma. Lebih jelasnya seperti pada output diatas.
 
-### 3. Tugas3_Praktikum3.go
+## 3. Tugas3_Praktikum3.go
 
 ```go
 // TUGAS 3 : PRAKTIKUM 3
@@ -261,12 +261,12 @@ func main() {
 }
 
 ```
-## OUTPUT SCREENSHOT
+### OUTPUT SCREENSHOT
 ![OutputTugas3_Praktikum3.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputTugas3_Praktikum3.go.png)
 
 Kode di atas digunakan untuk menghitung biaya pengiriman berdasarkan berat parsel dalam gram. Berat diubah menjadi kilogram dan gram, kemudian biaya dihitung dengan tarif Rp. 10.000 per kilogram. Jika berat kurang dari 10 kg, biaya tambahan dikenakan untuk sisa gram, dan jika lebih dari 10 kg, sisa gram digratiskan. Program ini mengulangi proses tiga kali dan menampilkan total biaya pengiriman untuk setiap input. Lebih jelasnya seperti pada output diatas.
 
-### 4. Tugas4_Praktikum3.go
+## 4. Tugas4_Praktikum3.go
 
 ```go
 // TUGAS 4 : PRAKTIKUM 3
@@ -309,15 +309,15 @@ func main() {
 
 
 ```
-## OUTPUT SCREENSHOT
+### OUTPUT SCREENSHOT
 ![OutputTugas4_Praktikum3.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputTugas4_Praktikum3.go.png)
 
 ### Tugas 4 A 
 #### A. Jika NAM diberikan adalah 80.1, apa keluaran dari program tersebut? Apakah eksekusi program tersebut sesuai spesifikasi soal?
 Jika NAM diberikan adalah 80.1, maka keluaran dari program adalah "A", karena 80.1 lebih besar dari 80. Namun, program ini tidak sesuai dengan spesifikasi soal. Pada kondisi yang diberikan, setiap pernyataan if dievaluasi secara terpisah, sehingga nilai 80.1 juga akan dievaluasi untuk kondisi-kondisi setelahnya, yaitu untuk AB, B, BC, C, D, dan E, yang menyebabkan hasil bisa menjadi tidak benar.
 
-### Tugas 4 B
-#### B. Apa saja kesalahan dari program tersebut? Mengapa demikian? Jelaskan alur program seharusnya!
+## Tugas 4 B
+### B. Apa saja kesalahan dari program tersebut? Mengapa demikian? Jelaskan alur program seharusnya!
 Kesalahan:
 - Program menggunakan kondisi if terpisah tanpa menggunakan else if. Hal ini membuat semua kondisi diperiksa, meskipun kondisi sebelumnya sudah terpenuhi.
 - Alur program yang benar seharusnya menggunakan struktur if-else if untuk menghentikan pengecekan setelah kondisi pertama yang sesuai terpenuhi.
@@ -325,8 +325,8 @@ Alur yang benar:
 - Program harus memeriksa nilai NAM menggunakan struktur if-else if yang berurutan, dimulai dari kondisi tertinggi (NAM ≥ 80) hingga kondisi terendah (NAM < 40).
 - Dengan ini, program akan langsung berhenti setelah menemukan kondisi yang sesuai dan tidak memeriksa kondisi lainnya.
 
-### Tugas 4 C_Praktikum3.go
-#### C. Perbaiki program tersebut! Ujilah dengan masukan: 93.5; 70.6; dan 49.5. Seharusnya keluaran yang diperoleh adalah 'A', 'B', dan 'D'.
+## Tugas 4 C_Praktikum3.go
+### C. Perbaiki program tersebut! Ujilah dengan masukan: 93.5; 70.6; dan 49.5. Seharusnya keluaran yang diperoleh adalah 'A', 'B', dan 'D'.
 
 ```go
 // TUGAS 4 C : PRAKTIKUM 3
@@ -378,7 +378,7 @@ func main() {
 }
 
 ```
-## OUTPUT SCREENSHOT
+### OUTPUT SCREENSHOT
 ![OutputTugas4C_Praktikum3.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputTugas4C_Praktikum3.go.png)
 
 Dalam soal, program perlu diperbaiki untuk menangani tiga input:
@@ -395,7 +395,7 @@ Perbaikan Masalah Pada Program Asli:
 - 70.6: Hasilnya B (karena berada dalam rentang 65 sampai kurang dari 72.5 (65 ≤ NAM < 72.5)).
 - 49.5: Hasilnya D (karena berada dalam rentang 40 sampai kurang dari 50 (40 ≤ NAM < 50)).
 
-### 5. Tugas5_Praktikum3.go
+## 5. Tugas5_Praktikum3.go
 
 ```go
 // TUGAS 5 : PRAKTIKUM 3
@@ -438,7 +438,7 @@ func main() {
 
 
 ```
-## OUTPUT SCREENSHOT
+### OUTPUT SCREENSHOT
 ![OutputTugas5_Praktikum3.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputTugas5_Praktikum3.go.png)
 
 Kode di atas digunakan untuk menerima input bilangan dari pengguna, menampilkan semua faktor dari bilangan tersebut, lalu menentukan apakah bilangan tersebut merupakan bilangan prima. Bilangan prima hanya memiliki dua faktor (1 dan dirinya sendiri), sehingga jika jumlah faktornya 2, bilangan tersebut adalah prima, jika tidak, bukan bilangan prima. Lebih jelasnya seperti pada output diatas.
