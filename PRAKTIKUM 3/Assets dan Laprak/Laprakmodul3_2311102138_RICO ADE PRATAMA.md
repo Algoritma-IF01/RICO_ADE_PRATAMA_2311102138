@@ -312,8 +312,8 @@ func main() {
 ### OUTPUT SCREENSHOT
 ![OutputTugas4_Praktikum3.go.png](/PRAKTIKUM%203/Assets%20dan%20Laprak/OutputTugas4_Praktikum3.go.png)
 
-### Tugas 4 A 
-#### A. Jika NAM diberikan adalah 80.1, apa keluaran dari program tersebut? Apakah eksekusi program tersebut sesuai spesifikasi soal?
+## Tugas 4 A 
+### A. Jika NAM diberikan adalah 80.1, apa keluaran dari program tersebut? Apakah eksekusi program tersebut sesuai spesifikasi soal?
 Jika NAM diberikan adalah 80.1, maka keluaran dari program adalah "A", karena 80.1 lebih besar dari 80. Namun, program ini tidak sesuai dengan spesifikasi soal. Pada kondisi yang diberikan, setiap pernyataan if dievaluasi secara terpisah, sehingga nilai 80.1 juga akan dievaluasi untuk kondisi-kondisi setelahnya, yaitu untuk AB, B, BC, C, D, dan E, yang menyebabkan hasil bisa menjadi tidak benar.
 
 ## Tugas 4 B
