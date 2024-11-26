@@ -680,7 +680,7 @@ func main() {
 
 ```
 ### OUTPUT SCREENSHOT
-![Output_TugasNo2_InsertionSort.go.png](/PRAKTIKUM%207/Assets%20dan%20Laprak/Output_TugasNo2_InsertionSort.go.png)
-![Output_TugasNo2_InsertionSort.go.2.png](/PRAKTIKUM%207/Assets%20dan%20Laprak/Output_TugasNo2_InsertionSort.go.2.png)
+![Output_TugasNo2_InsertionSort(1).go.png](/PRAKTIKUM%207/Assets%20dan%20Laprak/Output_TugasNo2_InsertionSort(1).go.png)
+![Output_TugasNo2_InsertionSort(2).go.png](/PRAKTIKUM%207/Assets%20dan%20Laprak/Output_TugasNo2_InsertionSort(2).go.png)
 
 Kode di atas digunakan untuk mengelola data buku di perpustakaan dengan menampilkan, mengurutkan, dan mencari buku berdasarkan rating menggunakan Insertion Sort. Buku diurutkan secara descending (dari rating tertinggi ke terendah), menampilkan buku terfavorit, lima buku terbaik, dan memungkinkan pencarian berdasarkan rating tertentu. Data buku meliputi ID, judul, penulis, penerbit, tahun, dan rating. Lebih jelasnya seperti pada output diatas.
