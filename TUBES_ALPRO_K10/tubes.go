@@ -307,18 +307,15 @@ func sortItems(by, order string) {
 	displayItems()
 }
 
-// Selection Sort function
+// Fungsi Selection Sort
 func selectionSort(items []Item, compare func(i, j int) bool) {
 	for i := 0; i < len(items)-1; i++ {
-		// Assume the current index is the minimum
 		minIndex := i
 		for j := i + 1; j < len(items); j++ {
-			// Compare elements and find the minimum index
 			if compare(j, minIndex) {
 				minIndex = j
 			}
 		}
-		// Swap if a new minimum is found
 		if minIndex != i {
 			items[i], items[minIndex] = items[minIndex], items[i]
 		}
@@ -370,6 +367,7 @@ func displayReport() {
 	fmt.Printf("Total Keuntungan : Rp %.2f\n", totalProfit)
 }
 
+// Fungsi Top 5 Barang Terlaris
 func displayTopSoldItems() {
 	type SoldItem struct {
 		ItemID    int
